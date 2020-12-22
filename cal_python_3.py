@@ -16,4 +16,4 @@ for y2 in ys[1:]:
 	tsum+=y1+y2
 	y1=y2
 isum = h*sum([ys[0],4*sum(ys[1:-1:2]),2*sum(ys[2:-1:2]),ys[-1]])/3
-print(isum)
+print(isum)	
